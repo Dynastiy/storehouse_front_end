@@ -1,0 +1,53 @@
+.navbar .spacer {
+    background: #141313;
+}
+.th1 {
+    background: #ffb20f;
+}
+.th2 {
+    background: rgba(255, 178, 15, 0.59);
+}
+.dateTable {
+  font-size: 1.4rem !important;
+}
+.dateTable, .dateTable2:hover {
+   transform: scale(1) translateX(-15px) !important;
+  box-shadow: 7px 9px 18px -2px rgba(61,61,61,1) !important;
+  transition: all 100ms ease-in;
+  cursor: pointer;
+}
+.dateTable2 {
+    border: none !important;
+    background: none !important;
+    width: 90%;
+    height: 100%;
+}
+#tableNoBorder, #tableNoBorder2 {
+    border: none !important;
+}
+#tableNoBorder2 {
+    background:  rgba(255, 178, 15, 0.59) !important;
+}
+.tabble tbody tr:nth-of-type(odd) {
+    background: #ffb20f !important;
+}
+.vh {
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.125) !important;
+}
+.vb {
+    display: block !important;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.125) !important;
+}
+
+/* Log In page Styling*/
+
+.loginHead {
+    background: #141313;
+    margin: auto 0;
+    padding: 1.8rem 0;
+    color: #ffb20f;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.125) !important;
+}
+.logIn {
+    background: #e5e5e5 !important;
+}
